@@ -40,11 +40,19 @@ class Owner
   end
 
   def buy_cat(name)
+<<<<<<< HEAD
     cat = Cat.new(name, self)
   end
 
   def buy_dog(name)
     dog = Dog.new(name, self)
+=======
+
+  end
+
+  def buy_dog(name)
+
+>>>>>>> b014f95f89f4e5d9bdba9bd2a1f48b52c0489f1e
   end
 
   def walk_dogs
@@ -69,7 +77,11 @@ class Owner
   end
 
   def list_pets
+<<<<<<< HEAD
     "I have #{dogs.count} dog(s), and #{cats.count} cat(s)."
+=======
+    "I have #{@dogs.count} dog(s), and #{@cats.count} cat(s)."
+>>>>>>> b014f95f89f4e5d9bdba9bd2a1f48b52c0489f1e
   end
 
 end
